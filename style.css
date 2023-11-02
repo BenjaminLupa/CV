@@ -22,3 +22,6 @@ h6 {
   max-width: 800px;
   margin: 0 auto;
 }
+.main > article + article {
+  margin-top: 55px;
+}
