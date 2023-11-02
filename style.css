@@ -41,3 +41,8 @@ h6 {
   background-color: blue;
   color: yellow;
 }
+
+::selection {
+  background-color: brown;
+  color: white;
+}
