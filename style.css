@@ -63,3 +63,9 @@ h6 {
 .individual::before {
   content: "🧑🏽‍🏫 ";
 }
+.responder::before {
+  content: "⛑️ ";
+}
+.computer {
+  content: "💻 ";
+}
