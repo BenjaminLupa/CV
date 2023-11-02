@@ -66,6 +66,6 @@ h6 {
 .responder::before {
   content: "⛑️ ";
 }
-.computer {
+.computer::before {
   content: "💻 ";
 }
