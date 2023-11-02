@@ -28,3 +28,15 @@ h6 {
 .nav-links + .nav-links {
   margin-left: 20px;
 }
+.nav-links:link {
+  background-color: rgba(224, 0, 0, 0.352);
+}
+
+.nav-links:hover {
+  background-color: rgb(224, 0, 0);
+  color: white;
+}
+.nav-links:active {
+  background-color: blue;
+  color: yellow;
+}
