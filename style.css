@@ -46,3 +46,8 @@ h6 {
   background-color: brown;
   color: white;
 }
+
+.subheading::after {
+  content: " 💾";
+  font-size: 20px;
+}
