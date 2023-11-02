@@ -13,3 +13,9 @@ h5,
 h6 {
   font-family: "Kanit", sans-serif;
 }
+.header {
+  padding: 50px 20px;
+}
+.main {
+  padding: 20px;
+}
