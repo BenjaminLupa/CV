@@ -24,6 +24,7 @@ h6 {
 }
 .main > article + article {
   margin-top: 55px;
+  border-top: 2px solid darkgray;
 }
 .nav-links + .nav-links {
   margin-left: 20px;
