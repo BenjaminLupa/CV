@@ -13,6 +13,10 @@ h5,
 h6 {
   font-family: "Kanit", sans-serif;
 }
+h1 {
+  font-size: 60px;
+  margin-bottom: -25px;
+}
 .header {
   padding: 50px 20px;
   text-align: center;
@@ -25,6 +29,10 @@ h6 {
 .main > article + article {
   margin-top: 55px;
   border-top: 2px solid darkgray;
+}
+
+nav {
+  margin-top: 30px;
 }
 
 .nav-links {
@@ -54,6 +62,9 @@ h6 {
   color: white;
 }
 
+.subheading {
+  font-size: 25px;
+}
 .subheading::after {
   content: " 💾";
   font-size: 20px;
