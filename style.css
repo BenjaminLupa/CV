@@ -75,3 +75,16 @@ h6 {
 .computer::before {
   content: "💻 ";
 }
+.mail::before {
+  content: "📧 ";
+  margin-right: 5px;
+}
+.tel::before {
+  content: "☎️ ";
+  margin-right: 5px;
+}
+.mail,
+.tel {
+  text-decoration: none;
+  font-size: 18px;
+}
