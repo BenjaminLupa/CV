@@ -113,3 +113,12 @@ footer {
   margin-top: 35px;
   margin-bottom: 15px;
 }
+
+.test-heading {
+  display: inline-block;
+}
+
+.test-subheading {
+  display: inline-block;
+  margin-left: 15px;
+}
