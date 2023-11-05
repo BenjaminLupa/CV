@@ -138,3 +138,8 @@ footer {
   top: 25px;
   right: 25px;
 }
+
+main article {
+  padding-left: 120px;
+  padding-right: 120px;
+}
