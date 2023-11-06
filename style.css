@@ -50,6 +50,13 @@ h1 {
   border-top: 2px solid darkgray;
 }
 
+@media screen and (min-width: 768px) {
+  .main > article + article {
+    margin-top: 4rem;
+    border-top: 2px solid darkgray;
+  }
+}
+
 /* Nav tags and classes*/
 nav {
   margin-top: 1.5rem;
