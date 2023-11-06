@@ -150,6 +150,21 @@ footer {
   right: 1.25rem;
 }
 
+@media screen and (min-width: 992px) {
+  .hire-me {
+    position: fixed;
+  }
+}
+
+@media print {
+  .hire-me {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+}
+
 main article {
   padding-left: 6rem;
   padding-right: 6rem;
