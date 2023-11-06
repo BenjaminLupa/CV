@@ -41,7 +41,7 @@ h1 {
   background-color: LightSkyBlue;
 }
 .main {
-  max-width: 40rem;
+  max-width: 65ch;
   margin: 0 auto;
 }
 .main > article + article {
