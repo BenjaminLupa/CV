@@ -4,6 +4,13 @@ html {
   font-size: 16px;
 }
 body {
+  --background-color: white;
+  --text-color: black;
+  --footer-background-color: rgb(255, 255, 0);
+  --border-color: rgb(126, 200, 245);
+  --hire-me-background-color: rgb(254, 0, 0);
+  --nav-links-background-color-active: blue;
+
   margin: 0;
 }
 h1,
@@ -45,10 +52,9 @@ h1 {
   padding: 2.5rem 1rem;
   text-align: center;
   background-image: linear-gradient(
-    rgb(255, 255, 0) 30%,
-    rgb(126, 200, 245) 90%
+    var(--footer-background-color) 30%,
+    var(--border-color) 90%
   );
-  background-color: LightSkyBlue;
 }
 .main {
   max-width: 75ch;
@@ -56,13 +62,13 @@ h1 {
 }
 .main > article + article {
   margin-top: 2.75rem;
-  border-top: 2px solid darkgray;
+  border-top: 2px solid var(--border-color);
 }
 
 @media screen and (min-width: 768px) {
   .main > article + article {
     margin-top: 4rem;
-    border-top: 5px solid rgb(126, 200, 245);
+    border-top: 5px solid var(--border-color);
   }
 }
 
@@ -77,7 +83,7 @@ nav {
 }
 
 .nav-links {
-  color: white;
+  color: var(--background-color);
   text-decoration: none;
 }
 .nav-links + .nav-links {
@@ -90,17 +96,17 @@ nav {
 }
 
 .nav-links:hover {
-  background-color: rgb(224, 0, 0);
-  color: white;
+  background-color: var(--hire-me-background-color);
+  color: var(--background-color);
 }
 .nav-links:active {
-  background-color: blue;
-  color: yellow;
+  background-color: var(--nav-links-background-color-active);
+  color: var(--footer-background-color);
 }
 
 ::selection {
-  background-color: brown;
-  color: white;
+  background-color: var(--border-color);
+  color: var(--background-color);
 }
 
 .logical::before {
@@ -146,7 +152,7 @@ footer {
   margin-bottom: 0.75rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgb(255, 255, 0);
+  background-color: var(--footer-background-color);
 }
 
 .test-heading {
@@ -170,8 +176,8 @@ footer {
   font-size: 0.9rem;
   border-radius: 0.4rem;
   padding: 0.75rem;
-  color: white;
-  background-color: rgb(254, 0, 0);
+  color: var(--background-color);
+  background-color: var(--hire-me-background-color);
   top: 1.25rem;
   right: 1.25rem;
 }
