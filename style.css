@@ -44,6 +44,10 @@ h1 {
 .header {
   padding: 2.5rem 1rem;
   text-align: center;
+  background-image: linear-gradient(
+    rgb(255, 255, 0) 30%,
+    rgb(126, 200, 245) 90%
+  );
   background-color: LightSkyBlue;
 }
 .main {
@@ -58,7 +62,7 @@ h1 {
 @media screen and (min-width: 768px) {
   .main > article + article {
     margin-top: 4rem;
-    border-top: 2px solid darkgray;
+    border-top: 5px solid rgb(126, 200, 245);
   }
 }
 
@@ -140,6 +144,9 @@ footer {
   text-align: center;
   margin-top: 1.75rem;
   margin-bottom: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(255, 255, 0);
 }
 
 .test-heading {
