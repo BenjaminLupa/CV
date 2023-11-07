@@ -93,6 +93,7 @@ nav {
   background-color: rgba(64, 56, 56, 0.352);
   padding: 0.25rem;
   border-radius: 0.25rem;
+  transition: background-color 250ms ease;
 }
 
 .nav-links:hover {
@@ -102,6 +103,10 @@ nav {
 .nav-links:active {
   background-color: var(--nav-links-background-color-active);
   color: var(--footer-background-color);
+}
+.nav-links:focus {
+  background-color: var(--hire-me-background-color);
+  border: 2px solid var(--footer-background-color);
 }
 
 ::selection {
