@@ -185,6 +185,11 @@ footer {
   background-color: var(--hire-me-background-color);
   top: 1.25rem;
   right: 1.25rem;
+  transition: transform 1s;
+}
+
+header:hover .hire-me {
+  transform: scale(1.5);
 }
 
 @media screen and (min-width: 992px) {
