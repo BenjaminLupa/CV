@@ -58,7 +58,8 @@ h1 {
 }
 .main {
   max-width: 75ch;
-  margin: 0 auto;
+  margin: 0;
+  align-content: center;
 }
 .main > article + article {
   margin-top: 2.75rem;
@@ -209,8 +210,8 @@ header:focus-within .hire-me {
 }
 
 main article {
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -231,5 +232,21 @@ main article {
 @media screen and (min-width: 992px) {
   html {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #profile,
+  #experiences,
+  #skills,
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr 2.3fr;
+  }
+  .profile-content,
+  .experiences-content,
+  .skills-content,
+  .contact-content {
+    margin-top: 3rem;
   }
 }
