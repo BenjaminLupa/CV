@@ -58,7 +58,8 @@ h1 {
 }
 .main {
   max-width: 75ch;
-  margin-left: 3rem;
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
 .main > article + article {
